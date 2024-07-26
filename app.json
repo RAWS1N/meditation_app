@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "meditation_app",
-    "slug": "meditation_app",
+    "slug": "meditationapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "57682f61-272d-46e5-8d40-7ec868fe889b"
+      }
+    },
+    "owner": "dharmic7976"
   }
 }
